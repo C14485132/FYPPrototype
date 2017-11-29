@@ -1,0 +1,23 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.idea/
+
+# OS generated files #
+######################
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Interim secrecy, don't want this public
+# Just contains secret keys for auth to be used later
+/SubItForMe/secrets.py
